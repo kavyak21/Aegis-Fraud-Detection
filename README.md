@@ -26,15 +26,14 @@ Aegis processes the transaction in real-time, assigns a fraud probability, block
 ## 🗂 Project Structure
 
 Aegis-Fraud-Detection/
-│
-├── model.py # Train and save ML model
-├── api.py # FastAPI inference service
-├── producer.py # Live transaction simulator
-├── dashboard.py # Streamlit fraud monitoring dashboard
-├── fraud_model.pkl # Trained model file
-├── Fraud.csv # PaySim dataset
-├── requirements.txt
-└── README.md
+  - model.py # Train and save ML model
+  - api.py # FastAPI inference service
+  - producer.py # Live transaction simulator
+  - dashboard.py # Streamlit fraud monitoring dashboard
+  - fraud_model.pkl # Trained model file
+  - Fraud.csv # PaySim dataset
+  - requirements.txt
+  - README.md
 
 
 ---
